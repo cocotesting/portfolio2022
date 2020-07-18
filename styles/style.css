@@ -1,0 +1,55 @@
+html {
+  background-color: #fffcf0;
+  font-size: 20px; 
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fffdde;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #faebb1;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0px;
+  padding: 10px 0px;    
+  color: black;
+  text-shadow: 3px 3px 2px #b5ac8a;
+}
+
+h3, h4 {
+  font-size: 40px;
+}
+
+p, li {   
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: green;
+}
+
+p2 {
+  font-size: 30px;
+  color: orange;
+}
+
+p4 {
+  font-size: 36px;
+  color: red;
+}
+
+
+img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid  #faebb1;
+}
+
+
+
+
