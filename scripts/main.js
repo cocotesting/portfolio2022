@@ -1,5 +1,5 @@
 var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+myHeading.textContent = 'Welcome to Learning Coco!';
 
 var myImage = document.querySelector('img');
 
@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Welcome to Learning Coco, ' + myName;
+    myHeading.innerHTML = 'Hi Learning ' + myName;
   }
 }
 
