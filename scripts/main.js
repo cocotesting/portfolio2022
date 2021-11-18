@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Welcome to Pikachu World, ' + myName;
+    myHeading.innerHTML = 'Welcome to Learning Coco, ' + myName;
   }
 }
 
