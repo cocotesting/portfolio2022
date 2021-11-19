@@ -21,7 +21,7 @@
             <tr>
                 <th>Remaining</th>
                 <td colspan="1"></td>
-                <th>{{ total | usd }}</h>
+                <th>0</th>
             </tr>
         </tfoot>
         <tbody>
@@ -29,24 +29,7 @@
                 <td>Income</td>
                 <td colspan="2"></td>
             </tr>
-            {% for income in incomes %}
-            <tr>
-                <td></td>
-                <td>{{ income['income_cat'] }}</td>
-                <td>{{ income['income_am']  | usd }}</td>
-            </tr>
-            {% endfor %}
-            <tr>
-                <td>Expense</td>
-                <td colspan="2"></td>
-            </tr>
-            {% for expense in expenses %}
-            <tr>
-                <td></td>
-                <td>{{ expense['expense_cat'] }}</td>
-                <td>{{ expense['expense_am']  | usd }}</td>
-            </tr>
-            {% endfor %}
+
         </tbody>
     </table>
 

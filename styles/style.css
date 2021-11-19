@@ -1,16 +1,3 @@
-html {
-  background-color: #fffcf0;
-  font-size: 20px; 
-  font-family: 'Grenze Gotisch', cursive;
-}
-
-body {
-  width: 800px;
-  margin: 0 auto;
-  background-color: #fffdde;
-  padding: 0 20px 20px 20px;
-  border: 5px solid #faebb1;
-}
 
 h1 {
   font-size: 60px;
