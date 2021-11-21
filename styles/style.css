@@ -22,7 +22,7 @@ section {
 
 .sidenav {
   height: 100%;
-  width: 15%;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 60;
@@ -35,7 +35,7 @@ section {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
   color: #818181;
   display: block;
 }
@@ -45,7 +45,7 @@ section {
 }
 
 article {
-  margin-left:15%;
+  margin-left:100px;
   background-color: #f1f1f1;
   padding: 10px;
 }
