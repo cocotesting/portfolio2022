@@ -15,12 +15,17 @@ header {
   color: white;
 }
 
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
 .sidenav {
   height: 100%;
   width: 160px;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 60;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
@@ -39,6 +44,14 @@ header {
   color: #f1f1f1;
 }
 
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
 
 /* Style the footer */
 footer {
@@ -50,7 +63,7 @@ footer {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  nav, article {
+  section {
     width: 100%;
     height: auto;
   }
