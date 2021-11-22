@@ -5,7 +5,7 @@
 
 
 nav a {
-  display: inline;
+  display: inline-block;
 }
 
 
@@ -18,8 +18,8 @@ footer{
   text-align: center;
 }
 
-footer a {
-  display: inline;
+footer span {
+  display: inline-block;
   text-decoration: none;
 }
 
