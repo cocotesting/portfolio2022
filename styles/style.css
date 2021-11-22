@@ -9,12 +9,9 @@
   font-size: x-large;
 }
 
-
-.navbar-nav {
-  display: inline;
-  float: right;
+section {
+  padding:10px;
 }
-
 
 /* Style the footer */
 footer{
