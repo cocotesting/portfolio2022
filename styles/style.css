@@ -6,42 +6,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
 }
 
 section {
   display: -webkit-flex;
   display: flex;
-}
-
-.sidenav {
-  height: 100%;
-  width: 100px;
-  position: fixed;
-  z-index: 1;
-  top: 60;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  color: #818181;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
 }
 
 article {
@@ -59,9 +32,11 @@ footer {
   color: white;
   width: 100%;
   bottom: 0;
-  position: fixed;
   left: 0;
 }
+
+
+
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
