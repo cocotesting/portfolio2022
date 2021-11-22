@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Red Hat Display', sans-serif;
+  background-color: none;
 }
 
 .navbar-brand {
