@@ -1,15 +1,18 @@
 * {
   box-sizing: border-box;
   font-family: 'Red Hat Display', sans-serif;
+  overflow: auto;
 }
 
 .navbar-brand {
   font-weight: bold;
+  font-size: x-large;
 }
 
 
 .navbar-nav {
-  display: inline-block;
+  display: inline;
+  float: right;
 }
 
 
@@ -25,7 +28,6 @@ footer{
 
 footer span {
   display: inline-block;
-  text-decoration: none;
 }
 
 
