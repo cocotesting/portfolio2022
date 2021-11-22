@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+nav a {
+  display: inline;
+}
 
 
 /* Style the footer */
@@ -14,10 +15,12 @@ footer{
   color: white;
   width: 100%;
   bottom: 0;
+  text-align: center;
 }
 
-footer p {
-  text-align: center;
+footer a {
+  display: inline;
+  text-decoration: none;
 }
 
 
