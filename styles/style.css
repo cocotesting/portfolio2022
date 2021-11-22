@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: 'Red Hat Display', sans-serif;
   overflow: auto;
+  background-color: white;
 }
 
 .navbar-brand {
