@@ -5,26 +5,31 @@
 }
 
 .navbar-brand {
-  font-weight: bold;
+
   font-size: x-large;
 }
 
 header {
-  padding: 10px;
-  margin: 30px;
+  padding: 40px 70px;
+  background-color: transparent;
 }
 
 section {
   padding: 10px;
-  margin: 30px;
+  margin: 30px 60px;
 }
 
-.headnav {
-  background-color: transparent;
-  padding: 30px;
+.infoheadnav {
+  background-color: #F07167;
+  padding: 10px 30px;
 }
 
-#abouthr {
+.indexheadnav {
+  background-color: #0081A7;
+  padding: 10px 30px;
+}
+
+#infohr {
   width: 80%;
   height: 0.5px;
   background-color: #F07167;
