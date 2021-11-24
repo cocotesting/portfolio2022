@@ -9,6 +9,29 @@
   font-size: x-large;
 }
 
+header {
+  padding: 10px;
+  margin: 30px;
+}
+
 section {
-  padding:10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.headnav {
+  background-color: transparent;
+  padding: 30px;
+}
+
+#abouthr {
+  width: 80%;
+  height: 0.5px;
+  background-color: #F07167;
+}
+
+#indexhr {
+  width: 80%;
+  height: 0.5px;
+  background-color: #0081A7;
 }
