@@ -185,22 +185,22 @@ a.un:hover:before {
   transform: scaleX(1);
 }
 
-section .wa, .il {
+section .ma, .il {
   margin: 50px;
   min-height: 300px;
   width: 30%;
-  transform: skew(10deg);
+  transform: skew(3deg);
   padding: 10px;
   background-color: #00AFB9;
   text-align: center;
   display: inline-block;
 }
 
-section .ma, .cs {
+section .wa, .cs {
   margin: 50px;
   min-height: 300px;
   width: 30%;
-  transform: skew(170deg);
+  transform: skew(177deg);
   padding: 10px;
   background-color: #00AFB9;
   text-align: center;
