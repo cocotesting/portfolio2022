@@ -22,6 +22,7 @@
   background-color: #F07167;
 }
 
+
 .indexheadnav {
   background-color: #0081A7;
   padding: 10px 30px;
@@ -75,6 +76,10 @@ a.un:hover:before {
 
 footer {
   margin: 10px 0px;
+}
+
+footer p {
+  font-size: 1vw;
 }
 
 .indexfooter {
@@ -268,7 +273,7 @@ header {
   background-color: transparent;
 }
 
-/* works */
+/* index page */
 
 .works {
   padding: 20px;
@@ -403,3 +408,34 @@ span {
     margin: 20px 20px;
   }
 }
+
+/* work page */
+
+.worktitle {
+  color: #00AFB9;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .worktitle {
+    color: #00AFB9;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+}
+
+header p {
+  padding: 10px;
+}
+
+header a {
+  color: black;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #00AFB9;
+}
+
