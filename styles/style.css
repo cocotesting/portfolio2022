@@ -16,21 +16,32 @@
   padding: 10px 30px;
 }
 
-.indexheadnav {
-  background-color: #0081A7;
-  padding: 10px 30px;
-}
-
 #infohr {
   width: 80%;
   height: 0.5px;
   background-color: #F07167;
 }
 
+.indexheadnav {
+  background-color: #0081A7;
+  padding: 10px 30px;
+}
+
 #indexhr {
   width: 80%;
   height: 0.5px;
   background-color: #0081A7;
+}
+
+.workheadnav {
+  background-color: #00AFB9;
+  padding: 10px 30px;
+}
+
+#workhr {
+  width: 80%;
+  height: 0.5px;
+  background-color: #00AFB9;
 }
 
 .un {
@@ -77,19 +88,6 @@ footer {
   font-size: 24px;
   text-decoration: none;
   color: #0081A7; 
-}
-
-.infofooter {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: #F07167; 
-}
-
-.infofooter a {
-  font-size: 24px;
-  text-decoration: none;
-  color: #F07167; 
 }
 
 .indexfooter a.logoun1
@@ -140,6 +138,19 @@ footer {
   transform: scaleX(1);
 }
 
+.infofooter {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #F07167; 
+}
+
+.infofooter a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #F07167; 
+}
+
 .infofooter a.logoun1
 {
     position: relative;
@@ -187,6 +198,68 @@ footer {
   visibility: visible;
   transform: scaleX(1);
 }
+
+.workfooter {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #00AFB9; 
+}
+
+.workfooter a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #00AFB9; 
+}
+
+.workfooter a.logoun1
+{
+    position: relative;
+}
+
+.workfooter a.logoun1:before {
+  content: "Linkedin";
+  font-size: small;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  bottom: 0px;
+  left: -13px;
+  background-color: #00AFB9;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.workfooter a.logoun1:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.workfooter a.logoun2
+{
+    position: relative;
+}
+
+.workfooter a.logoun2:before {
+  content: "Email";
+  font-size: small;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: -4px;
+  background-color: #00AFB9;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.workfooter a.logoun2:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 
 /* intro */
 
@@ -320,7 +393,13 @@ span {
 
 @media screen and (max-width: 480px) {
   .web .app .art {
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: center;
+  }
+
+  span {
+    display:inline-flex;
+    text-align: center;
+    margin: 20px 20px;
   }
 }
