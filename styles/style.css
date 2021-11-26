@@ -211,7 +211,7 @@ span {
 }
 
 .web {
-  font-size: 20vw;
+  font-size: 15vw;
   padding: 10px;
   color: #0081A7;
   position:relative;
@@ -247,7 +247,7 @@ span {
 }
 
 .app {
-  font-size: 20vw;
+  font-size: 15vw;
   padding: 10px;
   color: #0081A7;
 }
@@ -265,6 +265,7 @@ span {
   content: "Mobile Application ";
   font-weight: bold;
   font-size: large;
+  text-align: center;
   position: absolute;
   width: 100%;
   height: 0px;
@@ -283,7 +284,7 @@ span {
 
 
 .art {
-  font-size: 20vw;
+  font-size: 15vw;
   padding: 10px;
   color: #0081A7;
 }
@@ -315,4 +316,11 @@ span {
 .works_art:hover:before {
   visibility: visible;
   transform: scaleX(1);
+}
+
+@media screen and (max-width: 480px) {
+  .web .app .art {
+    font-size: 10vw;
+    text-align: center;
+  }
 }
