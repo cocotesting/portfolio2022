@@ -83,6 +83,7 @@
 
   header p {
     padding: 10px;
+    text-align: center;
   }
   
   header a {
@@ -99,16 +100,42 @@
 
  .worksindex {
     padding: 20px;
-    text-align: center;
+    text-align: left;
  }
 
- .worksindex span {
-    text-align: center;
-    margin: 20px 50px;
-    width: 30%;
+ .worksindex table {
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+    
  }
 
- .img {
+ .worksindex tr {
+    text-align: left;
+    width: 100%;
+
+ }
+
+ .worksindex .vl {
+    border-left: #00AFB9 1px solid;
+    padding: 2vw;
+ }
+
+ .worksindex .hl {
+    border-top: #00AFB9 1px solid;
+ }
+ .worksindex .td {
+    text-align: left;
+
+ }
+
+ .worksindex .title {
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bold;
+ }
+
+ .worksindex .img {
      width: 100%;
      height: 200px;
      background-color: grey;
@@ -122,9 +149,10 @@
     text-decoration: none;
 }
 
- .worksindex p {
+ .worksindex td {
     color: #00AFB9;
     line-height: inherit;
+    text-align: center;
  }
 
 
@@ -132,12 +160,86 @@
      color: #00AFB9;
      font-weight: bold;
      font-size: 100%;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     text-align: center;
+ }
+
+/* mobile index */
+
+.worksindex_app {
+    padding: 20px;
+    text-align: center;
+ }
+
+ .worksindex_app td {
+    text-align: center;
+    margin: 20px 50px;
+    width: 30%;
+ }
+
+ .worksindex_app .img {
+     width: 100%;
+     height: 200px;
+     background-color: grey;
+     font-size: x-large;
+     color: white;
+     line-height: 200px;
+ }
+ 
+ .worksindex_app a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+ .worksindex_app p {
+    color: #00AFB9;
+    line-height: inherit;
+    text-align: center;
+ }
+
+
+ .worksindex_app p span{
+     color: #00AFB9;
+     font-weight: bold;
+     font-size: 100%;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     text-align: center;
+ }
+
+
+ @media screen and (min-width: 481px) {
+    .worksindex_app {
+        visibility: collapse;
+    }
+
+    .worksindex {
+        visibility: visible;
+    }
+
  }
 
  @media screen and (max-width: 480px) {
+    .worksindex_app {
+        visibility: visible;
+    }
+
+    .worksindex {
+        visibility: collapse;
+    }
+
+    .navbar {
+        padding: 0vw 10vw;
+      }
+    
     .worktitle {
       color: #00AFB9;
       font-size: 20px;
       font-weight: bold;
-    }
-  }
+    }  
+
+    header p {
+        text-align: left;
+      }
+ }

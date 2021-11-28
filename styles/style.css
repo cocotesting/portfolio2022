@@ -325,6 +325,16 @@ span {
 }
 
 @media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0vw 10vw;
+  }
+
+  header {
+    margin: 0;
+    padding: 5vw 10vw;
+    text-align: justify;
+  }
+
   .web .app .art {
     font-size: 8vw;
     text-align: center;
