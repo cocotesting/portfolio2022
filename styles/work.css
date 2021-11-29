@@ -113,23 +113,21 @@
  .worksindex tr {
     text-align: left;
     width: 100%;
+ }
 
+ .worksindex td {
+    color: #00AFB9;
+    line-height: inherit;
+    text-align: left;
+    margin-bottom: 20px;
  }
 
  .worksindex .vl {
-    border-left: #00AFB9 1px solid;
-    padding: 2vw;
+    border-right: #00AFB9 1px solid;
+    text-align: center;
  }
 
- .worksindex .hl {
-    border-top: #00AFB9 1px solid;
- }
- .worksindex .td {
-    text-align: left;
-
- }
-
- .worksindex .title {
+ .worksindex td p .title {
     text-align: left;
     font-size: 2vw;
     font-weight: bold;
@@ -149,21 +147,6 @@
     text-decoration: none;
 }
 
- .worksindex td {
-    color: #00AFB9;
-    line-height: inherit;
-    text-align: center;
- }
-
-
- .worksindex p span{
-     color: #00AFB9;
-     font-weight: bold;
-     font-size: 100%;
-     margin-top: 10px;
-     margin-bottom: 0px;
-     text-align: center;
- }
 
 /* mobile index */
 
