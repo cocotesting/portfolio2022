@@ -3,12 +3,7 @@
     background-color: #00AFB9;
     padding: 10px 30px;
   }
-  
-  #workhr {
-    width: 80%;
-    height: 0.5px;
-    background-color: #00AFB9;
-  }
+
   
 /* footer */
   .workfooter {
@@ -82,7 +77,7 @@
 
 
   header p {
-    padding: 10px;
+    padding-top: 30px;
     text-align: center;
   }
   
@@ -99,13 +94,13 @@
 /* index */
 
  .worksindex {
-    padding: 20px;
+
     text-align: left;
  }
 
  .worksindex table {
     text-align: left;
-    margin: 20px auto;
+    margin: 0px auto;
     width: 80%;
     border-collapse: separate;
     border-spacing: 0 2vw;
@@ -114,7 +109,6 @@
  .worksindex tr {
     text-align: left;
     width: 100%;
-
  }
 
  .worksindex td {
@@ -128,12 +122,12 @@
  .worksindex .vl {
     border-right: #00AFB9 1px solid;
     text-align: center;
-    font-size: 2vw;
+    font-size: 20px;
  }
 
  .worksindex .title {
     text-align: left;
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: bold;
  }
 
@@ -157,69 +151,31 @@
 }
 
 
-/* mobile index */
-
-.worksindex_app {
-    padding: 20px;
-    text-align: center;
- }
-
- .worksindex_app td {
-    text-align: center;
-    margin: 20px 50px;
-    width: 30%;
- }
-
- .worksindex_app .img {
-     width: 100%;
-     height: 200px;
-     background-color: grey;
-     font-size: x-large;
-     color: white;
-     line-height: 200px;
- }
- 
- .worksindex_app a:hover {
-    color: white;
-    text-decoration: none;
-}
-
- .worksindex_app p {
-    color: #00AFB9;
-    line-height: inherit;
-    text-align: center;
- }
-
-
- .worksindex_app p span{
-     color: #00AFB9;
-     font-weight: bold;
-     font-size: 100%;
-     margin-top: 10px;
-     margin-bottom: 0px;
-     text-align: center;
- }
-
-
- @media screen and (min-width: 481px) {
-    .worksindex_app {
-        visibility: collapse;
-    }
-
-    .worksindex {
-        visibility: visible;
-    }
-
- }
-
  @media screen and (max-width: 480px) {
-    .worksindex_app {
-        visibility: visible;
-    }
 
-    .worksindex {
-        visibility: collapse;
-    }
+    .worksindex tr {
+        display:grid;
+     }
+
+     .worksindex {
+        padding: 0px;
+     }
+
+     .worksindex td {
+        margin-bottom: 0px;
+        padding: 0px;
+     }
+
+     .worksindex br {
+         display: none;
+     }
+
+     .worksindex .vl {
+        margin-top: 20px;
+        border-right: none;
+        text-align: right;
+        font-size: 20px;
+     }
 
     .navbar {
         padding: 0vw 10vw;
