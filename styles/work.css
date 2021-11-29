@@ -107,12 +107,14 @@
     text-align: left;
     margin: 20px auto;
     width: 80%;
-    
+    border-collapse: separate;
+    border-spacing: 0 2vw;
  }
 
  .worksindex tr {
     text-align: left;
     width: 100%;
+
  }
 
  .worksindex td {
@@ -120,14 +122,16 @@
     line-height: inherit;
     text-align: left;
     margin-bottom: 20px;
+    padding: 20px;
  }
 
  .worksindex .vl {
     border-right: #00AFB9 1px solid;
     text-align: center;
+    font-size: 2vw;
  }
 
- .worksindex td p .title {
+ .worksindex .title {
     text-align: left;
     font-size: 2vw;
     font-weight: bold;
@@ -140,10 +144,15 @@
      font-size: x-large;
      color: white;
      line-height: 200px;
+     text-align: center;
  }
  
+ .worksindex a {
+  color: #00AFB9;
+}
+
  .worksindex a:hover {
-    color: white;
+    color: #00AFB9;
     text-decoration: none;
 }
 

@@ -3,10 +3,23 @@
   font-family: 'Red Hat Display', sans-serif;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color:#555;
+}
+
 /* header */
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
 
 .navbar-brand {
-
   font-size: x-large;
 }
 
@@ -197,7 +210,7 @@ footer p {
 /* intro */
 
 header {
-  padding: 40px 70px;
+  padding: 125px 70px 30px 70px;
   background-color: transparent;
 }
 
