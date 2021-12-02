@@ -367,4 +367,20 @@ section table {
 
 section table td {
   padding: 10px;
+  text-align: left;
 }
+
+.exp li {
+  text-align: left;
+}
+
+.exp span{
+  display: none;
+}
+
+.exp td:hover span{
+  display: initial;
+  width: 100%;
+}
+
+
