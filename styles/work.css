@@ -103,11 +103,11 @@
     border-collapse: separate;
     border-spacing: 0 2vw;
  }
-
+ 
  .worksindex tr {
-
     width: 100%;
  }
+
 
  .worksindex td {
     color: #00AFB9;
@@ -116,6 +116,7 @@
     margin-bottom: 20px;
     padding: 20px;
  }
+
 
  .worksindex .vl {
     border-right: #00AFB9 1px solid;
@@ -152,6 +153,34 @@
     color: #00AFB9;
     text-decoration: none;
 }
+
+/* footer */
+.web1 {
+  font-size: 5vw;
+  padding: 10px;
+  color: #0081A7;
+  position:relative;
+}
+
+.app1 {
+  font-size: 5vw;
+  padding: 10px;
+  color: #0081A7;
+}
+
+.art1 {
+  font-size: 5vw;
+  padding: 10px;
+  color: #0081A7;
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+  margin: 60px 30px;
+}
+
+
 
 
  @media screen and (max-width: 480px) {

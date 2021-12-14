@@ -216,94 +216,26 @@ header {
 
 /* index page */
 
-.works {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-span {
-  display: inline-block;
-  text-align: center;
-  margin: 20px 50px;
-}
-
 .web {
-  font-size: 15vw;
+  font-size: 5vw;
   padding: 10px;
   color: #0081A7;
-  position:relative;
 }
 
 .web:hover {
   color: #00AFB9;
 }
 
-.works_web
-{
-    position: relative;
-}
-
-.works_web:before {
-  content: "Web Application";
-  font-weight: bold;
-  font-size: large;
-  position: absolute;
-  width: 100%;
-  height: 0px;
-  bottom: 0px;
-  left: 0px;
-  color: #0081A7;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-.works_web:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
 
 .app {
-  font-size: 15vw;
+  font-size: 5vw;
   padding: 10px;
   color: #0081A7;
 }
 
-.app:hover {
-  color: #00AFB9;
-}
-
-.works_app
-{
-    position: relative;
-}
-
-.works_app:before {
-  content: "Mobile Application ";
-  font-weight: bold;
-  font-size: large;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  height: 0px;
-  bottom: 0px;
-  left: 0px;
-  color: #0081A7;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-.works_app:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
 
 .art {
-  font-size: 15vw;
+  font-size: 5vw;
   padding: 10px;
   color: #0081A7;
 }
@@ -312,30 +244,6 @@ span {
   color: #00AFB9;
 }
 
-.works_art
-{
-    position: relative;
-}
-
-.works_art:before {
-  content: "Artwork ";
-  font-weight: bold;
-  font-size: large;
-  position: absolute;
-  width: 100%;
-  height: 0px;
-  bottom: 0px;
-  left: 0px;
-  color: #0081A7;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-.works_art:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
 
 @media screen and (max-width: 480px) {
   .navbar {
