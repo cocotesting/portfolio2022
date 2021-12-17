@@ -3,19 +3,12 @@
   font-family: 'Red Hat Display', sans-serif;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
-
-.navbar-fixed-top.scrolled .nav-link {
-  color:#555;
-}
 
 /* header */
 .navbar {
   position: fixed;
   width: 100%;
+  height: fit-content;
 }
 
 
@@ -210,62 +203,40 @@ footer p {
 /* intro */
 
 header {
-  padding: 125px 70px 30px 70px;
+  padding: 125px 15vw 30px 15vw;
   background-color: transparent;
 }
 
 /* index page */
 
-.web {
-  font-size: 5vw;
+.icon {
   padding: 10px;
   color: #0081A7;
 }
 
-.web:hover {
+.icon:hover {
   color: #00AFB9;
 }
 
-
-.app {
-  font-size: 5vw;
-  padding: 10px;
-  color: #0081A7;
-}
-
-
-.art {
-  font-size: 5vw;
-  padding: 10px;
-  color: #0081A7;
-}
-
-.art:hover {
-  color: #00AFB9;
-}
 
 
 @media screen and (max-width: 480px) {
   .navbar {
     padding: 0vw 10vw;
+    height: fit-content;
   }
 
   header {
     margin: 0;
-    padding: 30vw 10vw 5vw 10vw;
+    padding: 20vw 10vw 5vw 10vw;
     text-align: justify;
   }
 
   .web .app .art {
     font-size: 8vw;
-    text-align: center;
   }
 
-  span {
-    display:inline-flex;
-    text-align: center;
-    margin: 20px 20px;
-  }
+
 }
 
 /* info */

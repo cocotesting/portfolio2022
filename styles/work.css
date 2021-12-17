@@ -1,9 +1,3 @@
-/* nav */
- .workheadnav {
-    background-color: #00AFB9;
-    padding: 10px 30px;
-  }
-
   
 /* footer */
   .workfooter {
@@ -76,25 +70,11 @@
   }
 
 
-  header p {
-    padding-top: 30px;
-    text-align: center;
-  }
-  
-  header a {
-    color: black;
-  }
-  
-  header a:hover {
-    text-decoration: none;
-    color: #00AFB9;
-  }
-  
 
 /* index */
 
  .worksindex {
-
+    margin: 0 15vw;
     text-align: left;
  }
 
@@ -110,7 +90,7 @@
 
 
  .worksindex td {
-    color: #00AFB9;
+    color: #0081A7;
     line-height: inherit;
     text-align: left;
     margin-bottom: 20px;
@@ -125,10 +105,15 @@
  }
 
  .worksindex .title {
+    color: #0081A7;
     text-align: left;
     font-size: 20px;
     font-weight: bold;
  }
+
+ .worksindex .title:hover {
+  color: #00AFB9;
+}
 
  .worksindex .img {
      width: 300px;
@@ -154,33 +139,6 @@
     text-decoration: none;
 }
 
-/* footer */
-.web1 {
-  font-size: 5vw;
-  padding: 10px;
-  color: #0081A7;
-  position:relative;
-}
-
-.app1 {
-  font-size: 5vw;
-  padding: 10px;
-  color: #0081A7;
-}
-
-.art1 {
-  font-size: 5vw;
-  padding: 10px;
-  color: #0081A7;
-}
-
-span {
-  display: inline-block;
-  text-align: center;
-  margin: 60px 30px;
-}
-
-
 
 
  @media screen and (max-width: 480px) {
@@ -205,17 +163,11 @@ span {
         font-size: 20px;
      }
 
-    .navbar {
-        padding: 0vw 10vw;
-      }
-    
     .worktitle {
       color: #00AFB9;
       font-size: 20px;
       font-weight: bold;
     }  
 
-    header p {
-        text-align: left;
-      }
+
  }
