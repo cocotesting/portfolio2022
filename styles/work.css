@@ -1,4 +1,8 @@
-  
+.workheadnav {
+  background-color: #00AFB9;
+  padding: 10px 30px;
+}
+
 /* footer */
   .workfooter {
     text-align: center;
@@ -140,7 +144,6 @@
 }
 
 
-
  @media screen and (max-width: 480px) {
 
     .worksindex tr {
@@ -149,11 +152,12 @@
 
      .worksindex {
         padding: 0px;
+        margin: 0;
      }
 
      .worksindex td {
         margin-bottom: 0px;
-        padding: 0px;
+        padding: 0 20px;
      }
 
      .worksindex .vl {
@@ -168,6 +172,5 @@
       font-size: 20px;
       font-weight: bold;
     }  
-
 
  }
