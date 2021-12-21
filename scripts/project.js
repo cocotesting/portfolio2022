@@ -47,8 +47,8 @@ let webpj="";
   let mbIndex =   [
     {
         pj:"Shopping App",
-        tool:"iOS • Android<br>Ionic, Angular, SQLite",
-        img:"'images/web/coming.png'",
+        tool:"iOS • Android | Ionic, Angular, Laravel(PHP)",
+        img:"'images/app/tea.png'",
         link:"'#'"
     },
    ]
@@ -57,16 +57,14 @@ let webpj="";
 let mbpj="";
  for(let i = 0; i < mbIndex.length; i++){
  		let mb = {
-    	item: i+1,
     	pj: mbIndex[i].pj,
         tool: mbIndex[i].tool,
         img: mbIndex[i].img,
         link: mbIndex[i].link,
     }
-      mbpj +=  "<tr><td colspan='3' class='vl'>" + "0" + mb.item + "</td>" +
-      "<td colspan='3'><a href=" + mb.link +"><p  class='title'>" + mb.pj + "</p>" + mb.tool + "</a></td>" + 
-      "<td colspan='6'><a href=" + mb.link +"><img src=" + mb.img +"></a></td></tr>";
-
+      mbpj += "<tr><td><a href=" + mb.link +"><img src=" + mb.img +"></a></td></tr>" +
+      "<tr><td><a href=" + mb.link +"><p  class='title'>" + mb.pj + "</p>" + mb.tool + "</a></td></tr>" 
+      ;
  }
   document.getElementById("mbpj").innerHTML = mbpj;
 
@@ -139,9 +137,9 @@ let artpj="";
         img: artIndex[i].img,
         link: artIndex[i].link,
     }
-    artpj +=  "<tr><td colspan='3' class='vl'>" + "0" + art.item + "</td>" +
-      "<td colspan='3'><a href=" + art.link +"><p  class='title'>" + art.pj + "</p>" + art.tool + "</a></td>" + 
-      "<td colspan='6'><a href=" + art.link +"><img src=" + art.img +"></a></td></tr>";
+    artpj += "<tr><td><a href=" + art.link +"><img src=" + art.img +"></a></td></tr>" +
+      "<tr><td><a href=" + art.link +"><p  class='title'>" + art.pj + "</p>" + art.tool + "</a></td></tr>" 
+      ;
 
  }
   document.getElementById("artpj").innerHTML = artpj;
