@@ -85,32 +85,26 @@
  .worksindex table {
     margin: 0px auto;
     border-collapse: separate;
-    border-spacing: 0 2vw;
+    border-spacing: 2vw 2vw;
  }
  
  .worksindex tr {
     width: 100%;
+    display:grid;
+    padding-bottom: 24px;
  }
 
 
  .worksindex td {
     color: #0081A7;
-    line-height: inherit;
-    text-align: left;
-    margin-bottom: 20px;
-    padding: 20px;
- }
-
-
- .worksindex .vl {
-    border-right: #00AFB9 1px solid;
+    line-height: 18px;
     text-align: center;
-    font-size: 20px;
  }
+
 
  .worksindex .title {
     color: #0081A7;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
  }
@@ -119,18 +113,9 @@
   color: #00AFB9;
 }
 
- .worksindex .img {
-     width: 300px;
-     height: 200px;
-     background-color: grey;
-     font-size: x-large;
-     color: white;
-     line-height: 200px;
-     text-align: center;
- }
 
  img {
-    width: 300px;
+    width: 100%;
     height: auto;
  }
  
@@ -144,33 +129,35 @@
 }
 
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 700px) {
 
     .worksindex tr {
         display:grid;
+        width: 100%;
      }
 
      .worksindex {
         padding: 0px;
-        margin: 0;
+        margin: 0 5vw;
      }
 
      .worksindex td {
         margin-bottom: 0px;
-        padding: 0 20px;
+        text-align: center;
      }
 
-     .worksindex .vl {
-        margin-top: 20px;
-        border-right: none;
-        text-align: right;
-        font-size: 20px;
-     }
+     .worksindex .title {
+      text-align: center;
+   }
 
     .worktitle {
       color: #00AFB9;
       font-size: 20px;
       font-weight: bold;
     }  
+
+    img{
+      width: 100%;
+    }
 
  }

@@ -30,15 +30,14 @@ let webIndex =   [
 let webpj="";
  for(let i = 0; i < webIndex.length; i++){
  		let web = {
-    	item: i+1,
     	pj: webIndex[i].pj,
         tool: webIndex[i].tool,
         img: webIndex[i].img,
         link: webIndex[i].link,
     }
-      webpj +=  "<tr><td colspan='3' class='vl'>" + "0" + web.item + "</td>" +
-      "<td colspan='3'><a href=" + web.link +"><p  class='title'>" + web.pj + "</p>" + web.tool + "</a></td>" + 
-      "<td colspan='6'><a href=" + web.link +"><img src=" + web.img +"></a></td></tr>";
+      webpj +=  "<tr><td><a href=" + web.link +"><img src=" + web.img +"></a></td></tr>" +
+      "<tr><td><a href=" + web.link +"><p  class='title'>" + web.pj + "</p>" + web.tool + "</a></td></tr>" 
+      ;
 
  }
   document.getElementById("webpj").innerHTML = webpj;
@@ -77,7 +76,7 @@ let mbpj="";
     {
         pj:"Logo, product design",
         tool:"AI, PS",
-        img:"'images/art/tea/tealogom.png'",
+        img:"'images/art/tea/tealogol.png'",
         link:"'art/tea.html'"
     },
     {
