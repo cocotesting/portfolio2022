@@ -262,6 +262,12 @@ header {
     margin: auto 3vw;
 }
 
+.infogrid div {
+  margin: 1em auto 2em auto;
+  text-align: left;
+  width: 100%;
+}
+
 }
 
 /* info */
