@@ -222,13 +222,21 @@ header {
   padding: 10px;
   color: #0081A7;
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .icon:hover {
   color: #00AFB9;
 }
 
-
+.icon:before,
+.icon:after {
+    content: " ";
+    flex: 1 1;
+    border-bottom: 1px solid #0081A7;
+    margin: auto 24px;
+}
 
 @media screen and (max-width: 700px) {
   .navbar {
@@ -246,6 +254,13 @@ header {
     font-size: 8vw;
   }
 
+.icon:before,
+.icon:after {
+    content: " ";
+    flex: 1 1;
+    border-bottom: 2px solid #0081A7;
+    margin: auto 3vw;
+}
 
 }
 
@@ -272,4 +287,19 @@ section table td {
   width: 100%;
 }
 
+.infogrid {
+  display: grid;
+  padding: 20px;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
+.infogrid div {
+  margin: 1em auto 2em auto;
+  text-align: left;
+}
+
+.infogrid h5 {
+  text-align: center;
+
+}

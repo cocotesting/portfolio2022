@@ -35,8 +35,8 @@ let webpj="";
         img: webIndex[i].img,
         link: webIndex[i].link,
     }
-      webpj +=  "<tr><td><a href=" + web.link +"><img src=" + web.img +"></a></td></tr>" +
-      "<tr><td><a href=" + web.link +"><p  class='title'>" + web.pj + "</p>" + web.tool + "</a></td></tr>" 
+      webpj +=  "<div><a href=" + web.link +"><img src=" + web.img +"><br>" +
+      "<p  class='title'>" + web.pj + "</p>" + web.tool + "</a></div>" 
       ;
 
  }
@@ -62,8 +62,8 @@ let mbpj="";
         img: mbIndex[i].img,
         link: mbIndex[i].link,
     }
-      mbpj += "<tr><td><a href=" + mb.link +"><img src=" + mb.img +"></a></td></tr>" +
-      "<tr><td><a href=" + mb.link +"><p  class='title'>" + mb.pj + "</p>" + mb.tool + "</a></td></tr>" 
+      mbpj += "<div><a href=" + mb.link +"><img src=" + mb.img +"><br>" +
+      "<p  class='title'>" + mb.pj + "</p>" + mb.tool + "</a></div>" 
       ;
  }
   document.getElementById("mbpj").innerHTML = mbpj;
@@ -108,7 +108,7 @@ let mbpj="";
         link:"'art/ig_os.html'",
     },
     {
-        pj:"hristmas Card 2019",
+        pj:"Christmas Card 2019",
         tool:"MediBang Paint",
         img:"'images/art/christmas2019/back.png'",
         link:"'art/xmas2019.html'",
@@ -137,10 +137,9 @@ let artpj="";
         img: artIndex[i].img,
         link: artIndex[i].link,
     }
-    artpj += "<tr><td><a href=" + art.link +"><img src=" + art.img +"></a></td></tr>" +
-      "<tr><td><a href=" + art.link +"><p  class='title'>" + art.pj + "</p>" + art.tool + "</a></td></tr>" 
+    artpj += "<div><a href=" + art.link +"><img src=" + art.img +"><br>" +
+      "<span><p  class='title'>" + art.pj + "</p>" + art.tool + "</span></a></div>" 
       ;
-
  }
   document.getElementById("artpj").innerHTML = artpj;
 
