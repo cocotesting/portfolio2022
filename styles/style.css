@@ -17,18 +17,6 @@
 }
 
 
-.infoheadnav {
-  background-color: #F07167;
-  padding: 10px 30px;
-}
-
-#infohr {
-  width: 80%;
-  height: 0.5px;
-  background-color: #F07167;
-}
-
-
 .indexheadnav {
   background-color: #0081A7;
   padding: 10px 30px;
@@ -94,7 +82,7 @@ footer p {
 }
 
 .indexfooter a {
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
   color: #0081A7; 
 }
@@ -110,8 +98,8 @@ footer p {
   position: absolute;
   width: 100%;
   height: 0px;
-  bottom: 0px;
-  left: -13px;
+  top: -20px;
+  left: -15px;
   background-color: #0081A7;
   visibility: hidden;
   transform: scaleX(0);
@@ -129,17 +117,17 @@ footer p {
 }
 
 .indexfooter a.logoun2:before {
-  content: "Email";
+  content: "cocowoohl@gmail.com";
   font-size: small;
   position: absolute;
   width: 100%;
   height: 0;
-  bottom: 0;
-  left: -4px;
+  top: 0px;
+  left: 30px;
   background-color: #0081A7;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
 }
 
 .indexfooter a.logoun2:hover:before {
@@ -147,66 +135,6 @@ footer p {
   transform: scaleX(1);
 }
 
-.infofooter {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: #F07167; 
-}
-
-.infofooter a {
-  font-size: 24px;
-  text-decoration: none;
-  color: #F07167; 
-}
-
-.infofooter a.logoun1
-{
-    position: relative;
-}
-
-.infofooter a.logoun1:before {
-  content: "Linkedin";
-  font-size: small;
-  position: absolute;
-  width: 100%;
-  height: 0px;
-  bottom: 0px;
-  left: -13px;
-  background-color: #F07167;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-.infofooter a.logoun1:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-.infofooter a.logoun2
-{
-    position: relative;
-}
-
-.infofooter a.logoun2:before {
-  content: "Email";
-  font-size: small;
-  position: absolute;
-  width: 100%;
-  height: 0px;
-  bottom: 0px;
-  left: -4px;
-  background-color: #F07167;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-.infofooter a.logoun2:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
 
 
 /* intro */
@@ -238,6 +166,7 @@ header {
     margin: auto 24px;
 }
 
+
 @media screen and (max-width: 700px) {
   .navbar {
     padding: 0vw 5vw;
@@ -261,51 +190,5 @@ header {
     border-bottom: 2px solid #0081A7;
     margin: auto 3vw;
 }
-
-.infogrid div {
-  margin: 1em auto 2em auto;
-  text-align: left;
-  width: 100%;
-}
-
-}
-
-/* info */
-section table {
-  margin:0 auto;
-}
-
-section table td {
-  padding: 0px;
-  text-align: center;
-}
-
-.exp li {
-  text-align: left;
-}
-
-.exp span{
-  display: none;
-}
-
-.exp td:hover span{
-  display: initial;
-  width: 100%;
-}
-
-.infogrid {
-  display: grid;
-  padding: 20px;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.infogrid div {
-  margin: 1em auto 2em auto;
-  text-align: left;
-}
-
-.infogrid h5 {
-  text-align: center;
 
 }

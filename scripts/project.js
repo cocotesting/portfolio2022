@@ -1,11 +1,11 @@
 //Web Application//
 let webIndex =   [
-    {
+    /*{
         pj:"Auction",
         tool:"HTML, CSS, SQLite, Python, Django, jQuery",
         img:"'images/web/coming.png'",
         link:"'#'"
-    },
+    },*/
     {
         pj:"Encyclopedia",
         tool:"HTML, CSS, SQLite, Markdown, Python, Django, jQuery",

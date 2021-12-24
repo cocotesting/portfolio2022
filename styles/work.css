@@ -78,30 +78,31 @@
 /* index */
 
  .worksindex {
-    margin: 0 24px;
+    margin: 0 5em;
     text-align: left;
  }
 
 .grid {
    display: grid;
-   padding: 20px;
+   padding: 1em;
    align-items: center;
    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
  }
 
 .grid div {
-   margin: 1em 1em 2em 1em;
+   margin: 1em 0em 2em 0em;
    height:block;
    text-align: center;
 }
 
 .grid img {
     width: 600px;
+    border-radius: 10px;
  }
 
 .smgrid {
    display: grid;
-   padding: 20px;
+   padding: 1em;
    align-items: center;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    z-index: -1;
@@ -116,7 +117,7 @@
  .smgrid img {
    max-width: 300px;
    max-height: 300px;
-
+   border-radius: 10px;;
 }
 
  .worksindex .title {
