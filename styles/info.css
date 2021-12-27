@@ -75,20 +75,6 @@ section {
     margin: 0 7em;
     text-align: left;
   }
-  
-  section table {
-    margin:0 auto;
-  }
-  
-  section table td {
-    padding: 0px;
-    text-align: center;
-  }
-  
-  .exp li {
-    text-align: left;
-  }
-  
   .exp span{
     display: none;
   }
@@ -132,8 +118,24 @@ section {
   .expgrid br {
     display: none;
   }
+
+  .expgrid div div {
+    margin: 0;
+    text-align: left;
+  }
   
   @media screen and (max-width: 700px) {
+    .navbar {
+        padding: 0vw 5vw;
+        height: fit-content;
+      }
+    
+      header {
+        margin: 0;
+        padding: 20vw 5vw 5vw 5vw;
+        text-align: justify;
+      }
+
     section {
         margin: 0;
         padding: 0 5vw;
@@ -142,7 +144,7 @@ section {
   .infogrid {
     display: grid;
     padding: 0px;
-    margin: 0 1em;
+    margin: 0 0 0 1em;
   }
 
   .infogrid div {
@@ -172,7 +174,11 @@ section {
     text-align: left;
     width: 90%;
   }
-  
+
+  .expgrid div div {
+    width: 100%;
+  }
+
   .expgrid br {
     display:block;
   }

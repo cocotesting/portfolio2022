@@ -16,7 +16,6 @@
   font-size: x-large;
 }
 
-
 .indexheadnav {
   background-color: #0081A7;
   padding: 10px 30px;
@@ -139,9 +138,21 @@ footer p {
 
 /* intro */
 
+
 header {
-  padding: 125px 15vw 30px 15vw;
+  padding: 125px 7em 30px 7em;
   background-color: transparent;
+}
+
+header div{
+  display: grid;
+  padding: 1em;
+  align-items:center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.title { 
+  color: #0081A7;
 }
 
 /* index page */
@@ -174,9 +185,24 @@ header {
   }
 
   header {
+    margin: 0 1em;
+    padding: 20vw 0 5vw 0;
+    text-align: left;
+  }
+
+  header div {
     margin: 0;
-    padding: 20vw 5vw 5vw 5vw;
-    text-align: justify;
+    text-align: left;
+    width: 90%;
+  }
+
+  header h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  header br {
+    display: initial;
   }
 
   .web .app .art {
