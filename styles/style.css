@@ -73,25 +73,24 @@ footer p {
   font-size: 18px;
 }
 
-.indexfooter {
+.fter {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #0081A7; 
 }
 
-.indexfooter a {
+.index a {
   font-size: 18px;
   text-decoration: none;
   color: #0081A7; 
 }
 
-.indexfooter a.logoun1
+.fter a.logoun1
 {
     position: relative;
 }
 
-.indexfooter a.logoun1:before {
+.fter a.logoun1:before {
   content: "Linkedin";
   font-size: small;
   position: absolute;
@@ -99,23 +98,22 @@ footer p {
   height: 0px;
   top: -20px;
   left: -15px;
-  background-color: #0081A7;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
 }
 
-.indexfooter a.logoun1:hover:before {
+.fter a.logoun1:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
 
-.indexfooter a.logoun2
+.fter a.logoun2
 {
     position: relative;
 }
 
-.indexfooter a.logoun2:before {
+.fter a.logoun2:before {
   content: "cocowoohl@gmail.com";
   font-size: small;
   position: absolute;
@@ -123,17 +121,19 @@ footer p {
   height: 0;
   top: 0px;
   left: 30px;
-  background-color: #0081A7;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in;
 }
 
-.indexfooter a.logoun2:hover:before {
+.fter a.logoun2:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
 
+.fter a.logoun2:active {
+  visibility: visible;
+}
 
 
 /* intro */
@@ -151,7 +151,7 @@ header div{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.title { 
+.index { 
   color: #0081A7;
 }
 
@@ -165,16 +165,31 @@ header div{
   flex-direction: row;
 }
 
-.icon:hover {
-  color: #00AFB9;
-}
-
 .icon:before,
 .icon:after {
     content: " ";
     flex: 1 1;
     border-bottom: 1px solid #0081A7;
     margin: auto 24px;
+}
+
+#topbtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  cursor: pointer; 
+  background-color: transparent;
+  padding: 15px;
+  font-size: 50px; 
+}
+
+#topbtn:hover {
+  transform: scaleX(1.5);
+  transition: all 0.3s ease-in;
 }
 
 

@@ -34,15 +34,23 @@
 
 <!-- heading -->
     <header>
-        <h3>ABOUT ME</h3>
-        <p>
-          Coding and programming are super interesting and full of excitement! I finshed the <a target="_blank" href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50x</a> programme on October 2021 and working hard on <a target="_blank" href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming">CS50’s Web Programming with Python and JavaScript</a> course recently. I cannot wait to work as a programmer as it is so much fun and I just fell in love with coding.
-      </p>
+      <div onclick="intro0()" class="info click">ABOUT ME</div>
+      <div>
+        <span>
+          <ul>
+            <li onclick="intro1()" class="click">My programming journey</li>
+            <li onclick="intro2()" class="click">Reasons why I "quit" Social Work</li>
+          </ul>
+        </span>
+        <span id="intro">
+          <h3>Hi there!</h3> 
+           I am still a beginner programmer. But I am a curious learner, and will continue to be. I am so excited to work as a programmer as it is so much fun and I just fell in love with coding. Press the 2 subtitles to know more about me!
+        </span>  
+
     </header>
 
-    <hr id="infohr">
-
     <section>
+      <h3 class="line">SKILLS</h3>
       <div class="infogrid">
         <div><h5>PERSONAL SKILLS</h5>
           <ul>
@@ -64,69 +72,66 @@
               <li>Flurent English • Japanese (JLPT N1) • Chinese<br><br><br></li>
             </ul>
           </div>
-
       </div>
 
-      <hr id="infohr">
-
-      <div class="expgrid"><h3>EXPERIENCE</h3>
-        <div><h5>2020-2021 | <br>Working Holiday in JAPAN</h5></div>
-        <div><h5>2021 JUL-SEP | <br>Project Manager (Part-time, Telecommute) &#9660;</h5>
-          <span>
+        <h3 class="line">EXPERIENCE</h3>
+        <div class="expgrid">
+          <div><h5>2020-2021 | <br>Working Holiday in JAPAN</h5></div>
+          <div><h5>2021 JUL-SEP | <br>Project Manager <br>(Part-time, Telecommute)</h5>
+            <span>
+              <ul>
+                <li>Developed a 6-month strategic promotional plan including target ordinance identification and usage of budget, etc</li>
+                <li>Designed VR box and its cover as the very first introduction to the VR videos</li>
+                <li>Provided oversight in executing the project from planning to implementation, advices for Grant reports writing and new Grant proposals designing</li>
+              </ul>
+            </span>
+            </div>
+          <div><h5>2016-2020 | <br>Service Manager in Elderly Carer Service <br>(Registered Social Worker)</h5>
+            <span>
             <ul>
-              <li>Developed a 6-month strategic promotional plan including target ordinance identification and usage of budget, etc</li>
-              <li>Designed VR box and its cover as the very first introduction to the VR videos</li>
-              <li>Provide consultations on implementing the project and report writing</li>
+              <li>Promoted twice within 3-year timeframe from Frontline Social Worker to Service Manager in recognition of outstanding performance </li>
+              <li>Supervised and monitored 3 funded projects costing a total of $13M HKD to provide support services for frail elderly and their caregivers</li>
+              <li>Successfully coached and trained 1 service manager, 4 social workers, 2 nurses, 6 project workers & home care workers</li>
+              <li>Liaised with different commercial organizations to organize different volunteer activities for the elderlies and their carers</li>
             </ul>
           </span>
           </div>
-        <div><h5>2016-2020 | <br>Service Manager in Elderly Carer Service <br>(Registered Social Worker) &#9660;</h5>
-          <span>
-          <ul>
-            <li>Promoted twice within 3-year timeframe from Frontline Social Worker to Service Manager in recognition of outstanding performance </li>
-            <li>Supervised and monitored 3 funded projects costing a total of $13M HKD to provide support services for frail elderly and their caregivers</li>
-            <li>Successfully coached and trained 1 service manager, 4 social workers, 2 nurses, 6 project workers & home care workers</li>
-            <li>Liaised with different commercial organizations to organize different volunteer activities for the elderlies and their carers</li>
-          </ul>
-        </span>
+          <div><h5>2015-2016 | <br>Research and Development Officer <br>(Registered Social Worker)</h5>
+            <span>
+              <ul>
+                <li>Conducted and implemented more than 15 elderly related courses, workshops, seminars and conferences for professionals in elderly services and public.</li>
+                <li>Liaised with different organizations to gain sponsorship for community education events, for example, designing aerobic dance for elderly, publishing health columns on Newspapers and conducting seminars and public talks for carers</li>
+                <li>Developed the year plan and the financial budget plan of the Research and Training Division based on the vision of the Association</li>
+              </ul>
+            </span>
+          </div>
         </div>
-        <div><h5>2015-2016 | <br>Research and Development Officer <br>(Registered Social Worker) &#9660;</h5>
-          <span>
-            <ul>
-              <li>Conducted and implemented more than 15 elderly related courses, workshops, seminars and conferences for professionals in elderly services and public.</li>
-              <li>Liaised with different organizations to gain sponsorship for community education events, for example, designing aerobic dance for elderly, publishing health columns on Newspapers and conducting seminars and public talks for carers</li>
-              <li>Developed the year plan and the financial budget plan of the Research and Training Division based on the vision of the Association</li>
-            </ul>
-          </span>
-        </div>
-      </div>
-      
 
-      <hr id="infohr">
-
-      <div class="expgrid"><h3>EDUCATION</h3>
-        <div>
-          <h5>CS50’s Web Programming with Python and JavaScript</h5>
-          <div>HarvardX | Pursuing</div>
+        <h3 class="line">EDUCATION</h3>
+        <div class="edugrid">
+          <div>
+            <h5>CS50’s Web Programming with Python and JavaScript</h5>
+            <div>HarvardX | Pursuing</div>
+          </div>
+          <div>
+            <h5>Certificate in Mobile Application Developer Training</h5>
+            <div>Hong Kong College of Technology | 2021</div>
+          </div>
+          
+          <div>
+            <h5>CS50x: CS50's Introduction to Computer Science</h5>
+            <div>HarvardX | 2020-2021</div>
+          </div>
+          <div>
+            <h5>Master of Social Science Programme in Social Work (Part-time)</h5>
+            <div>The Chinese University of Hong Kong | 2016-2019</div>
+          </div>
+          <div>
+            <h5>Bachelor of Science in Gerontology</h5>
+            <div>The Chinese University of Hong Kong | 2013-2015</div>
+          </div>
         </div>
-        <div>
-          <h5>Certificate in Mobile Application Developer Training</h5>
-          <div>Hong Kong College of Technology | 2021</div>
-        </div>
-        
-        <div>
-          <h5>CS50x: CS50's Introduction to Computer Science</h5>
-          <div>HarvardX | 2020-2021</div>
-        </div>
-        <div>
-          <h5>Master of Social Science Programme in Social Work (MSSc) (Part-time)</h5>
-          <div>The Chinese University of Hong Kong | 2016-2019</div>
-        </div>
-        <div>
-          <h5>Bachelor of Science in Gerontology</h5>
-          <div>The Chinese University of Hong Kong | 2013-2015</div>
-        </div>
-      </div>
+      </section>
 
 
         <!-- 
@@ -147,18 +152,15 @@
          -->
 
     </section>
-
+    <button onclick="topFunction()" id="topbtn" class="info" title="Go to top">^</button>
 <!-- footer -->
-    <footer class="infofooter">
-      <p style="font-weight: 400"> &copy; Coco Woo &nbsp; • &nbsp; Hong Kong &nbsp; | &nbsp;
-        <a href="#" class="logoun1"><i class="fa fa-linkedin"></i></a>
-      &nbsp;&nbsp;&nbsp;
-      <a href="#" class="logoun2"><i class="fa fa-envelope logoun2"></i></a>
-    </p>
-  </footer>
+    <footer id="_footer" class="fter info">
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    
+    <script src="scripts/main.js"></script>
+    <script src="scripts/project.js"></script>
 </body>
