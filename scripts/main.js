@@ -18,10 +18,7 @@ function topFunction() {
 
 //Footer//
 
-let _footer="<p style='font-weight: 400'> &copy; Coco Woo &nbsp; &#8226; &nbsp; Hong Kong &nbsp; | &nbsp;"+
-"<a href='https://www.linkedin.com/in/cocowoo' target='_blank' class='logoun1'><i class='fa fa-linkedin'></i></a>"+
-"&nbsp; &nbsp; &nbsp;"+
-"<a href='mailto:cocowoohl@gmail.com' class='logoun2'><i class='fa fa-envelope logoun2'></i></a></p>";
+let _footer="<p style='font-weight: 400' class='mid'> &copy; Coco Woo &nbsp; &#8226; &nbsp; Hong Kong &nbsp;</p>";
 
 
   document.getElementById("_footer").innerHTML = _footer;

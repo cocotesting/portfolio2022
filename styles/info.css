@@ -3,12 +3,15 @@
     padding: 10px 30px;
   }
 
-  .info a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #F07167; 
+  a {
+    color: black;
   }
-    
+  
+  a:hover {
+    color: #F07167;
+    text-decoration: none;
+  }
+  
   ul {
     list-style: none;
     padding: 0;
