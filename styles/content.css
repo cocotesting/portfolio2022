@@ -22,6 +22,7 @@ section {
 
 img {
      width: 80%;
+     max-width: 500px;
      display: block;
      margin: 0 auto;
      border-radius: 10px;
@@ -51,7 +52,7 @@ section div {
 
   .workgrid {
     display: grid;
-    padding: 1em;
+    padding: 0 1em;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
