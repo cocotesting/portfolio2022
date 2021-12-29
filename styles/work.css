@@ -1,6 +1,7 @@
 .workheadnav {
   background-color: #00AFB9;
   padding: 10px 30px;
+  z-index: 99;
 }
 
 .work {
