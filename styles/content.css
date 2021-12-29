@@ -1,67 +1,31 @@
-.content {
-    color: #00AFB9;
-
-}
-
+section {
+   margin: 0 7em;
+   text-align: left;
+ }
 
 /* index */
-.contenttitle {
-    color: #00AFB9;
-    font-size: 28px;
-    font-weight: bold;
-  }  
-
-
-
-.content {
-    text-align: left;
-    width: 80%;
-    display: block;
-    margin: 0px auto;
+.subline {
+   padding: 10px;
+   color: #00AFB9;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+ }
+ 
+.subline:before,
+.subline:after {
+     content: " ";
+     flex: 1 1;
+     border-bottom: 1px solid #00AFB9;
+     margin: auto 24px;
  }
 
-
- .content table {
-    margin: 0px auto;
-    border-collapse: separate;
-    border-spacing: 0 2vw;
- }
-
- .content tr {
-    width: 100%;
- }
-
- .content td {
-    width: 33%;
-    color: #00AFB9;
-    line-height: inherit;
-    text-align: left;
-    margin-top: 20px;
-    padding: 20px;
- }
-
-
- .content .title {
-    padding: 20px 0;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
- }
-
- .content img {
+img {
      width: 80%;
      display: block;
      margin: 0 auto;
+     border-radius: 10px;
  }
- 
- .content a {
-  color: #00AFB9;
-}
-
- .content a:hover {
-    color: #00AFB9;
-    text-decoration: none;
-}
 
 
 .container {
@@ -80,35 +44,68 @@ iframe {
    z-index: -1;
 }
 
+section div {
+   display: grid;
+   padding: 1em 2em 0em 2em;
+ }
 
+  .workgrid {
+    display: grid;
+    padding: 1em;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .workgrid div {
+    margin: 1em 1em 2em 1em;
+    text-align: left;
+  }
+
+  ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+  .workgrid li::before {
+   content: "\203A"; 
+   padding-right: 12px;
+   color: #00AFB9; 
+ }
 
  @media screen and (max-width: 700px) {
+   .content {
+      padding: 0px;
+   }
 
-    .content tr {
-        display:grid;
-     }
+   section {
+   margin: 0;
+   padding: 0 5vw;
+   }
 
-     .content {
-        padding: 0px;
-     }
+section div {
+   display: grid;
+   padding: 0px;
+   margin: 0 0 0 0.5em;
+   }
 
-     .content td {
-      width: 80%;
-        margin-bottom: 0px;
-        padding: 0px;
-     }
+.workgrid {
+  display: grid;
+  padding: 0px;
+  margin: 0 0 0 1em;
+}
 
-    .navbar {
-        padding: 0vw 5vw;
-      }
-    
-    .contenttitle {
-      color: #00AFB9;
-      font-size: 20px;
-      font-weight: bold;
-    }  
+.workgrid div {
+  margin: 1em 0 2em 0;
+  text-align: left;
+  width: 90%;
+}
 
-    header p {
-        text-align: left;
-      }
+.subline:before,
+.subline:after {
+  content: " ";
+  flex: 1 1;
+  border-bottom: 2px solid #00AFB9;
+  margin: auto 3vw;
+}
  }
