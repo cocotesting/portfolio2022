@@ -143,4 +143,3 @@ let artpj="";
  }
   document.getElementById("artpj").innerHTML = artpj;
 
-

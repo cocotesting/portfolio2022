@@ -43,3 +43,18 @@ function intro2() {
 
     document.getElementById("intro").innerHTML = intro;
 }
+
+//navbar content//
+let nav = '<nav class="navbar navbar-expand-lg navbar-dark workheadnav">'+
+    '<a class="navbar-brand" href="../index.html">Coco Woo</a>'+
+    '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">'+
+        '<span class="navbar-toggler-icon"></span></button>'+
+      '<div class="collapse navbar-collapse" id="navbarNavAltMarkup">'+
+        '<ul class="navbar-nav ml-auto mid">'+
+          '<li class="nav-item"><a class="nav-link un" href="../index.html">WORK </a></li>'+
+          '<li class="nav-item"><a class="nav-link un" href="../info.html">INFO</a></li>'+
+          '<li class="nav-item"><a href="https://www.linkedin.com/in/cocowoo" target="_blank" class="nav-link"><i class="fa fa-linkedin"></i></a></li>'+
+          '<li class="nav-item"><a href="mailto:cocowoohl@gmail.com" class="nav-link"><i class="fa fa-envelope"></i></a></li>'+
+        '</ul></div></nav>';
+
+document.getElementById("nav").innerHTML = nav;
