@@ -54,7 +54,6 @@ let nav = '<nav class="navbar navbar-expand-lg navbar-dark workheadnav">'+
           '<li class="nav-item"><a class="nav-link un" href="../index.html">WORK </a></li>'+
           '<li class="nav-item"><a class="nav-link un" href="../info.html">INFO</a></li>'+
           '<li class="nav-item"><a href="https://www.linkedin.com/in/cocowoo" target="_blank" class="nav-link"><i class="fa fa-linkedin"></i></a></li>'+
-          '<li class="nav-item"><a href="mailto:cocowoohl@gmail.com" class="nav-link"><i class="fa fa-envelope"></i></a></li>'+
         '</ul></div></nav>';
 
 document.getElementById("nav").innerHTML = nav;
