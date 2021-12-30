@@ -119,6 +119,12 @@ section {
     text-align: left;
   }
 
+  .btn:hover {
+    background-color: transparent;
+    border: #F07167 1px solid;
+    color:#F07167;
+  }
+
 
   @media screen and (max-width: 700px) {
     .navbar {
