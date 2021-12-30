@@ -46,7 +46,7 @@ let webpj="";
 //Mobile//
   let mbIndex =   [
     {
-        pj:"SEcommerce Mobile App",
+        pj:"Ecommerce Mobile App",
         tool:"iOS • Android | Ionic, Angular, Laravel(PHP)",
         img:"'images/app/tea.png'",
         link:"'app/tea.html'"
