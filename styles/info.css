@@ -149,6 +149,10 @@ section {
         padding: 0 5vw;
       }
 
+    .intro {
+      font-size: 14px;
+    }
+
   .infogrid {
     display: grid;
     padding: 0px;
@@ -160,26 +164,17 @@ section {
     text-align: left;
     width: 90%;
   }
-  
+
+  .infogrid h5 {
+    font-size: 16px;
+  }
+
+  .infogrid li {
+    font-size: 14px;
+  }
 
   .infogrid br {
     display: none;
-  }
-
-  .expgrid {
-    display: grid;
-    padding: 0px;
-    margin: 0 1em;
-  }
-
-  .expgrid div {
-    margin: 1em 0 2em 0;
-    text-align: left;
-    width: 90%;
-  }
-
-  .expgrid br {
-    display:block;
   }
 
   .edugrid {
@@ -197,6 +192,7 @@ section {
 
   .edugrid div div {
     width: 100%;
+    font-size: 12px;;
   }
 
   .line:before,
@@ -205,5 +201,9 @@ section {
     flex: 1 1;
     border-bottom: 2px solid #F07167;
     margin: auto 3vw;
+}
+
+.edugrid h5 {
+  font-size: 16px;
 }
   }
