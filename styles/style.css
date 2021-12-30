@@ -120,25 +120,27 @@ header div{
     margin: auto 24px;
 }
 
+
 #topbtn {
   display: none; 
   position: fixed; 
-  bottom: 0px; 
-  right: 30px; 
+  bottom: 20px; 
+  right: 5%;;
   z-index: 99; 
   border: none; 
+  border-radius: 100%;
   outline: none; 
   cursor: pointer; 
-  background-color: transparent;
-  padding: 15px;
-  font-size: 50px; 
+  background-color: white;
+  opacity:0.6;
+  padding: 5px;
+  font-size: 30px; 
+  transform: scaleX(2)
 }
 
 #topbtn:hover {
-  transform: scaleX(1.5);
-  transition: all 0.3s ease-in;
+  opacity:1;
 }
-
 
 @media screen and (max-width: 700px) {
   .navbar {
