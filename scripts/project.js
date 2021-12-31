@@ -72,6 +72,18 @@ let mbpj="";
 //Art//
   let artIndex =   [
     {
+        pj:"New Year Postcard 2022",
+        tool:"MediBang Paint",
+        img:"'images/art/newyear2022/front.JPG'",
+        link:"'art/newyear2022.html'",
+    },
+    {
+        pj:"Christmas Card 2021",
+        tool:"MediBang Paint",
+        img:"'images/art/christmas2021/front.png'",
+        link:"'art/xmas2021.html'",
+    },
+    {
         pj:"Logo, product design",
         tool:"AI, PS",
         img:"'images/art/tea/tealogol.png'",
