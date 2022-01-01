@@ -18,12 +18,19 @@ let webIndex =   [
         img:"'images/web/expensetracker1.png'",
         link:"'web/expensetracker.html'",
     },
+       {
+        pj:"Clone project - Google Search",
+        tool:"HTML, CSS",
+        img:"'images/web/clonegoogle.png'",
+        link:"'web/clonegoogle.html'",
+    }, 
     {
         pj:"Stock Trading",
         tool:"HTML, CSS, SQLite, Python, Flask",
         img:"'images/web/stock1.png'",
         link:"'web/stocktrading.html'",
     },
+
    ]
    
 
