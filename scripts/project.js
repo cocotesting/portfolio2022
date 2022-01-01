@@ -93,13 +93,13 @@ let mbpj="";
     {
         pj:"Logo, product design",
         tool:"AI, PS",
-        img:"'images/art/tea/tealogol.png'",
+        img:"'images/art/tea/tealogom.png'",
         link:"'art/tea.html'"
     },
     {
         pj:"VR box design",
         tool:"AI, PS",
-        img:"'images/art/vr/front.JPG'",
+        img:"'images/art/vr/front1.jpg'",
         link:"'art/vrbox.html'",
     },
     {
