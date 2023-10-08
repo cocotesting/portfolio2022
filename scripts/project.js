@@ -21,7 +21,7 @@ let webIndex =   [
        {
         pj:"Clone project - Google Search",
         tool:"HTML, CSS",
-        img:"'images/web/clonegoogle.png'",
+        img:"'images/web/clonecocgle.png'",
         link:"'web/clonegoogle.html'",
     }, 
     {
